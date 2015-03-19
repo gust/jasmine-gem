@@ -19,7 +19,7 @@ module Jasmine
       end
 
       def rails4?
-        safe_gem_check("rails", "~> 4.0.0.rc1") && running_rails4?
+        safe_gem_check("rails", "~> 4.0") && running_rails4?
       end
 
       def legacy_rack?
